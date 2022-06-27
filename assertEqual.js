@@ -7,5 +7,5 @@ const assertEqual = function(actual, expected) {
     console.log(`${pass}${pass}${pass} Assertion Passed: ${actual} === ${expected}`);
   }
 };
-assertEqual("Lighthouse Labs", "BootCamp");
+assertEqual("Lighthouse Labs!", "Bootcamp!");
 assertEqual(1, 1);
