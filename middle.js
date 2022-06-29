@@ -1,15 +1,3 @@
-// const middle = function(array) {
-//     if (array.length === 1 || array.length === 2) {
-//       return [array];
-//     } else if (array.length % 2 === 0) {
-//       return [array[array.length / 2 -1], array[array.length/2]];
-//     }else {
-//       return [array[array.length / 2 - 0.5]];
-//     }
-// };
-
-
-
 const getMiddle = function(arr) {
     if (arr.length === 1 || arr.length === 2) {
       return arr;
