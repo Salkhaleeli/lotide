@@ -13,3 +13,4 @@ const assertArraysEq = function(Arr1, Arr2){
 }
 assertArraysEq([1, 2, 3], [1, 2, 3])
 assertArraysEq([1, 2, 3], [2, 3])
+module.exports = assertArraysEq;

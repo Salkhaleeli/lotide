@@ -5,3 +5,4 @@ const tail = function(array) {
 };
 
 console.log(assertEqual(tail(["Hello", "Lighthouse", "Labs"]), 'Labs'));
+module.exports = tail

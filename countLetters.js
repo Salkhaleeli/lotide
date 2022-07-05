@@ -11,3 +11,4 @@ const countLetters = function(string){
 }
 console.log(countLetters('Lighthouse'));
 console.log(countLetters('lalaland'));
+module.exports = countLetters;
